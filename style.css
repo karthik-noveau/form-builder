@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+
+.builder_main_container {
+     
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+/* header */
+
+.share_btn {
+    border-bottom: 1px solid #dedede;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.share_btn p {
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+  
+}
+.share_btn button {
+    background-color: #00082e;
+    border: transparent;
+    font-weight: bold;
+    color: white;
+    padding: 2px 35px;
+    border-radius: 9px;
+    font-size: 16px;
+    height: 41px;
+    margin-right: 15px;
+}
+
+
+
+/* left container */
+
+.left_container {
+    width: 30%;
+    height: 100vh;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: center;
+}
+.left-cont-items{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 30px;
+}
+.left-cont-items p {
+    background-color: #e9e9e9;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: start;
+    border-radius: 7px;
+    padding: 10px 0px 10px 65px;
+    width: 38%;
+    font-weight: 600;
+    color: black;
+    cursor:move;
+}
+
+
+
+
+
+
+/* center conatainer */
+
+.center_container {
+   
+    width: 50%;
+    height: 100vh;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    background-color: #e9e9e9;
+    display:flex;
+    justify-content:center;
+}
+.dropable{
+    width: 90%;
+    margin-top: 40px;
+    background-color:white;
+}
+
+
+
+
+
+
+/* Right container */
+
+.right_container {
+  
+    width: 30%;
+    height: 100vh;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+   
+}
+
+
